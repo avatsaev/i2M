@@ -63,7 +63,11 @@ int main(int argc, char *argv[]){
     NSLog(@"%x = %d",pointeur, *pointeur);
     
     
+    char *chaine;
+    chaine = malloc (100);
+    chaine = "cahine";
     
+    NSLog(@"%s", chaine);
     
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AZR_AppDelegate class]));
