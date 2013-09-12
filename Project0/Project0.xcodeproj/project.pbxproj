@@ -16,6 +16,7 @@
 		A33771D217E1E9F800B32750 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A33771D117E1E9F800B32750 /* Default.png */; };
 		A33771D417E1E9F800B32750 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A33771D317E1E9F800B32750 /* Default@2x.png */; };
 		A33771D617E1E9F800B32750 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A33771D517E1E9F800B32750 /* Default-568h@2x.png */; };
+		A3DBCAC817E2115200E8AA5E /* AZR_Vehicule.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBCAC717E2115200E8AA5E /* AZR_Vehicule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		A33771D117E1E9F800B32750 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A33771D317E1E9F800B32750 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A33771D517E1E9F800B32750 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3DBCAC017E20C3300E8AA5E /* AZR_Vehicule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZR_Vehicule.h; sourceTree = "<group>"; };
+		A3DBCAC717E2115200E8AA5E /* AZR_Vehicule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZR_Vehicule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +81,11 @@
 		A33771C517E1E9F800B32750 /* Project0 */ = {
 			isa = PBXGroup;
 			children = (
-				A33771DC17E1EA7C00B32750 /* assets */,
 				A33771CE17E1E9F800B32750 /* AZR_AppDelegate.h */,
 				A33771CF17E1E9F800B32750 /* AZR_AppDelegate.m */,
 				A33771C617E1E9F800B32750 /* Supporting Files */,
+				A3DBCAC017E20C3300E8AA5E /* AZR_Vehicule.h */,
+				A3DBCAC717E2115200E8AA5E /* AZR_Vehicule.m */,
 			);
 			path = Project0;
 			sourceTree = "<group>";
@@ -98,14 +102,6 @@
 				A33771D517E1E9F800B32750 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A33771DC17E1EA7C00B32750 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = assets;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +172,7 @@
 			files = (
 				A33771CC17E1E9F800B32750 /* main.m in Sources */,
 				A33771D017E1E9F800B32750 /* AZR_AppDelegate.m in Sources */,
+				A3DBCAC817E2115200E8AA5E /* AZR_Vehicule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +285,7 @@
 				A33771DB17E1E9F800B32750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

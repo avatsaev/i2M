@@ -6,12 +6,43 @@
 //  Copyright (c) 2013 Vatsaev Aslan. All rights reserved.
 
 #import <UIKit/UIKit.h>
-
+#import "AZR_Vehicule.h"
 #import "AZR_AppDelegate.h"
 
 int main(int argc, char *argv[]){
     
-    NSLog(@"hello world");
+    
+    
+    AZR_Vehicule* v = [[AZR_Vehicule alloc] init];
+        
+    [v start];
+    
+    [v setNbPlaces:4];
+    
+    NSLog(@"Places %d",[v getNbPlaces]);
+    
+    [v release];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*NSLog(@"hello world");
     int a = 79;
     NSLog(@"a=%d",a);
     
@@ -65,9 +96,12 @@ int main(int argc, char *argv[]){
     
     char *chaine;
     chaine = malloc (100);
-    chaine = "cahine";
+    chaine = "bonjour";
     
-    NSLog(@"%s", chaine);
+    NSLog(@"%s", chaine);*/
+    
+    
+    
     
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AZR_AppDelegate class]));
