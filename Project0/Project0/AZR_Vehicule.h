@@ -20,6 +20,7 @@
 //-(int)getNbPlaces;
 
 @property (assign) int nbPortes;
+@property (assign) int power;
 
 
 @end

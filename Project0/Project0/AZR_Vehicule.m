@@ -14,7 +14,20 @@
 
 -(id)init{
     self = [super init];
-    return self;
+    
+    if (self){
+        self.nbPortes=4;
+        self.power=200;
+        return self;
+    }
+    else return nil;
+}
+
+-(id)initWithPower: (int)power{
+    self = [super init];
+    self.power=power;
+    if (self) return self;
+    else return nil;
 }
 
 -(void)start{

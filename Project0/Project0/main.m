@@ -17,16 +17,21 @@ int main(int argc, char *argv[]){
         
     [v start];
     
-    //[v setNbPlaces:4];
-    
-    
-    
     [v setNbPortes:4];
     
     NSLog(@"Places %d",[v nbPortes]);
     
     
+    v.power = 200;
+    
+    NSLog(@"Power: %d", v.power);
+    
     [v release];
+    
+    
+    
+    
+    
     
     
     
