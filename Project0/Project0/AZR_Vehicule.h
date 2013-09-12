@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface AZR_Vehicule : NSObject{
-
-    int nbPlaces;
     
 }
 
@@ -18,9 +16,10 @@
 
 -(void)start;
 
--(void)setNbPlaces:(int) p;
--(int)getNbPlaces;
+//-(void)setNbPlaces:(int) p;
+//-(int)getNbPlaces;
 
+@property (assign) int nbPortes;
 
 
 @end

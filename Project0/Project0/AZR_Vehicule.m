@@ -10,6 +10,8 @@
 
 @implementation AZR_Vehicule
 
+//@synthesize nbPortes;
+
 -(id)init{
     self = [super init];
     return self;
@@ -20,15 +22,12 @@
 }
 
 
--(void)setNbPlaces:(int) p{
-    nbPlaces =p;
-}
+//-(void)setNbPlaces:(int) p{
+//    nbPlaces =p;
+//}
 
--(int)getNbPlaces{
-    return nbPlaces;
-}
-
-
-
+//-(int)getNbPlaces{
+//    return nbPlaces;
+///}
 
 @end

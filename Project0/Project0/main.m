@@ -17,9 +17,14 @@ int main(int argc, char *argv[]){
         
     [v start];
     
-    [v setNbPlaces:4];
+    //[v setNbPlaces:4];
     
-    NSLog(@"Places %d",[v getNbPlaces]);
+    
+    
+    [v setNbPortes:4];
+    
+    NSLog(@"Places %d",[v nbPortes]);
+    
     
     [v release];
     
