@@ -16,6 +16,9 @@
 		A33771D217E1E9F800B32750 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A33771D117E1E9F800B32750 /* Default.png */; };
 		A33771D417E1E9F800B32750 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A33771D317E1E9F800B32750 /* Default@2x.png */; };
 		A33771D617E1E9F800B32750 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A33771D517E1E9F800B32750 /* Default-568h@2x.png */; };
+		A38E902E17E457CE00206FC6 /* AZR_Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E902D17E457CE00206FC6 /* AZR_Driver.m */; };
+		A38E903317E45CAB00206FC6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38E903117E45CAB00206FC6 /* ViewController.xib */; };
+		A38E903517E4648200206FC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E903417E4648200206FC6 /* ViewController.m */; };
 		A3DBCAC817E2115200E8AA5E /* AZR_Vehicule.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBCAC717E2115200E8AA5E /* AZR_Vehicule.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,11 @@
 		A33771D117E1E9F800B32750 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A33771D317E1E9F800B32750 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A33771D517E1E9F800B32750 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A38E902C17E457CE00206FC6 /* AZR_Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZR_Driver.h; sourceTree = "<group>"; };
+		A38E902D17E457CE00206FC6 /* AZR_Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZR_Driver.m; sourceTree = "<group>"; };
+		A38E902F17E45CAB00206FC6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A38E903117E45CAB00206FC6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A38E903417E4648200206FC6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A3DBCAC017E20C3300E8AA5E /* AZR_Vehicule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZR_Vehicule.h; sourceTree = "<group>"; };
 		A3DBCAC717E2115200E8AA5E /* AZR_Vehicule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZR_Vehicule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,11 +89,16 @@
 		A33771C517E1E9F800B32750 /* Project0 */ = {
 			isa = PBXGroup;
 			children = (
+				A38E903417E4648200206FC6 /* ViewController.m */,
 				A33771CE17E1E9F800B32750 /* AZR_AppDelegate.h */,
 				A33771CF17E1E9F800B32750 /* AZR_AppDelegate.m */,
 				A33771C617E1E9F800B32750 /* Supporting Files */,
 				A3DBCAC017E20C3300E8AA5E /* AZR_Vehicule.h */,
 				A3DBCAC717E2115200E8AA5E /* AZR_Vehicule.m */,
+				A38E902C17E457CE00206FC6 /* AZR_Driver.h */,
+				A38E902D17E457CE00206FC6 /* AZR_Driver.m */,
+				A38E902F17E45CAB00206FC6 /* ViewController.h */,
+				A38E903117E45CAB00206FC6 /* ViewController.xib */,
 			);
 			path = Project0;
 			sourceTree = "<group>";
@@ -160,6 +173,7 @@
 				A33771D217E1E9F800B32750 /* Default.png in Resources */,
 				A33771D417E1E9F800B32750 /* Default@2x.png in Resources */,
 				A33771D617E1E9F800B32750 /* Default-568h@2x.png in Resources */,
+				A38E903317E45CAB00206FC6 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +187,8 @@
 				A33771CC17E1E9F800B32750 /* main.m in Sources */,
 				A33771D017E1E9F800B32750 /* AZR_AppDelegate.m in Sources */,
 				A3DBCAC817E2115200E8AA5E /* AZR_Vehicule.m in Sources */,
+				A38E902E17E457CE00206FC6 /* AZR_Driver.m in Sources */,
+				A38E903517E4648200206FC6 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

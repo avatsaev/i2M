@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AZR_Driver.h"
+
+@class AZR_Driver;
 
 @interface AZR_Vehicule : NSObject{
     
@@ -21,6 +24,8 @@
 
 @property (assign) int nbPortes;
 @property (assign) int power;
+@property (retain) AZR_Driver* driver;
+
 
 
 @end
