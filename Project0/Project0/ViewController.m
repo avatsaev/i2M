@@ -75,7 +75,7 @@
 }
 
 - (IBAction)destroyVehicle:(id)sender {
-    self.d1.takeCurrentVehicle;
+    
     [self.v1 dealloc];
 }
 @end
