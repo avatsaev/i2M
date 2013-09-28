@@ -28,7 +28,7 @@
     //self.v1.power= 200;
     //self.v1.name= @"Toyota Supra";
     self.v1 = [[AZR_LPVehicle alloc] initWithName:@"Toyota"];
-    self.v2 = [AZR_LPVehicle vehicleWithName:@"Nissan"];
+    self.v2 = [AZR_LPVehicle vehicleWithName:@"Nis"];
     [self.v2 retain];
     
     
@@ -47,6 +47,19 @@
     
     
     NSLog(@"%@",self.v2);
+    
+    
+    NSDictionary* misc = [NSDictionary dictionaryWithObjectsAndKeys:@"red",@"color",@"km",@"distance",  self.tableD, @"tableD", nil];
+    
+    NSLog(@"-->%@ est une couleur", misc[@"color"]);
+    NSLog(@"-->%@ Capitol of russia", misc[@"tableD"][@"Russia"]);
+    
+    NSNumber *n = [NSNumber numberWithFloat:1.2];
+    
+    
+    
+    NSLog(@"%d",[n intValue]);
+    
     
 }
 
