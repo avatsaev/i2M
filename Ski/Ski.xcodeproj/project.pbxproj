@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A356830117F6C081009D6939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A356830017F6C081009D6939 /* Foundation.framework */; };
+		A356830317F6C081009D6939 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A356830217F6C081009D6939 /* CoreGraphics.framework */; };
+		A356830517F6C081009D6939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A356830417F6C081009D6939 /* UIKit.framework */; };
+		A356830B17F6C081009D6939 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A356830917F6C081009D6939 /* InfoPlist.strings */; };
+		A356830D17F6C081009D6939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A356830C17F6C081009D6939 /* main.m */; };
+		A356831117F6C081009D6939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A356831017F6C081009D6939 /* AppDelegate.m */; };
+		A356831417F6C081009D6939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A356831217F6C081009D6939 /* Main.storyboard */; };
+		A356831717F6C081009D6939 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A356831617F6C081009D6939 /* FirstViewController.m */; };
+		A356831A17F6C081009D6939 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A356831917F6C081009D6939 /* SecondViewController.m */; };
+		A356831C17F6C081009D6939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A356831B17F6C081009D6939 /* Images.xcassets */; };
+		A356832317F6C081009D6939 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A356832217F6C081009D6939 /* XCTest.framework */; };
+		A356832417F6C081009D6939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A356830017F6C081009D6939 /* Foundation.framework */; };
+		A356832517F6C081009D6939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A356830417F6C081009D6939 /* UIKit.framework */; };
+		A356832D17F6C082009D6939 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A356832B17F6C082009D6939 /* InfoPlist.strings */; };
+		A356832F17F6C082009D6939 /* SkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A356832E17F6C082009D6939 /* SkiTests.m */; };
+		A356833A17F6C1F4009D6939 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A356833917F6C1F4009D6939 /* ThirdViewController.m */; };
+		A356833C17F6C8B1009D6939 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = A356833B17F6C8B1009D6939 /* Countries.plist */; };
+		A356833F17F6CA1C009D6939 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A356833E17F6CA1C009D6939 /* TableViewController.m */; };
+		A369796F17FFE52A00608231 /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = A369796E17FFE52A00608231 /* fr.png */; };
+		A369797117FFE5F600608231 /* de.png in Resources */ = {isa = PBXBuildFile; fileRef = A369797017FFE5F600608231 /* de.png */; };
+		A369797317FFE61C00608231 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = A369797217FFE61C00608231 /* es.png */; };
+		A369797517FFE63B00608231 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = A369797417FFE63B00608231 /* us.png */; };
+		A369797B17FFF0AA00608231 /* CountryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A369797A17FFF0AA00608231 /* CountryDetailsViewController.m */; };
+		A369797D17FFF27100608231 /* SkiStations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A369797C17FFF27100608231 /* SkiStations.plist */; };
+		A36979831800116700608231 /* StationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36979821800116700608231 /* StationDetailsViewController.m */; };
+		A36979851800124100608231 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36979841800124100608231 /* MapKit.framework */; };
+		A36979881800190000608231 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A36979871800190000608231 /* MapAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A356832617F6C081009D6939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35682F517F6C081009D6939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35682FC17F6C081009D6939;
+			remoteInfo = Ski;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A35682FD17F6C081009D6939 /* Ski.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ski.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A356830017F6C081009D6939 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A356830217F6C081009D6939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A356830417F6C081009D6939 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A356830817F6C081009D6939 /* Ski-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ski-Info.plist"; sourceTree = "<group>"; };
+		A356830A17F6C081009D6939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A356830C17F6C081009D6939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A356830E17F6C081009D6939 /* Ski-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ski-Prefix.pch"; sourceTree = "<group>"; };
+		A356830F17F6C081009D6939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A356831017F6C081009D6939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A356831317F6C081009D6939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A356831517F6C081009D6939 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A356831617F6C081009D6939 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A356831817F6C081009D6939 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A356831917F6C081009D6939 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A356831B17F6C081009D6939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A356832117F6C081009D6939 /* SkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A356832217F6C081009D6939 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A356832A17F6C082009D6939 /* SkiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkiTests-Info.plist"; sourceTree = "<group>"; };
+		A356832C17F6C082009D6939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A356832E17F6C082009D6939 /* SkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkiTests.m; sourceTree = "<group>"; };
+		A356833817F6C1F4009D6939 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A356833917F6C1F4009D6939 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A356833B17F6C8B1009D6939 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		A356833D17F6CA1C009D6939 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A356833E17F6CA1C009D6939 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A369796E17FFE52A00608231 /* fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fr.png; sourceTree = "<group>"; };
+		A369797017FFE5F600608231 /* de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = de.png; sourceTree = "<group>"; };
+		A369797217FFE61C00608231 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
+		A369797417FFE63B00608231 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
+		A369797917FFF0AA00608231 /* CountryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryDetailsViewController.h; sourceTree = "<group>"; };
+		A369797A17FFF0AA00608231 /* CountryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryDetailsViewController.m; sourceTree = "<group>"; };
+		A369797C17FFF27100608231 /* SkiStations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SkiStations.plist; sourceTree = "<group>"; };
+		A36979811800116700608231 /* StationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationDetailsViewController.h; sourceTree = "<group>"; };
+		A36979821800116700608231 /* StationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationDetailsViewController.m; sourceTree = "<group>"; };
+		A36979841800124100608231 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A36979861800190000608231 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		A36979871800190000608231 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A35682FA17F6C081009D6939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36979851800124100608231 /* MapKit.framework in Frameworks */,
+				A356830317F6C081009D6939 /* CoreGraphics.framework in Frameworks */,
+				A356830517F6C081009D6939 /* UIKit.framework in Frameworks */,
+				A356830117F6C081009D6939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A356831E17F6C081009D6939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A356832317F6C081009D6939 /* XCTest.framework in Frameworks */,
+				A356832517F6C081009D6939 /* UIKit.framework in Frameworks */,
+				A356832417F6C081009D6939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A35682F417F6C081009D6939 = {
+			isa = PBXGroup;
+			children = (
+				A356830617F6C081009D6939 /* Ski */,
+				A356832817F6C081009D6939 /* SkiTests */,
+				A35682FF17F6C081009D6939 /* Frameworks */,
+				A35682FE17F6C081009D6939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A35682FE17F6C081009D6939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A35682FD17F6C081009D6939 /* Ski.app */,
+				A356832117F6C081009D6939 /* SkiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A35682FF17F6C081009D6939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36979841800124100608231 /* MapKit.framework */,
+				A356830017F6C081009D6939 /* Foundation.framework */,
+				A356830217F6C081009D6939 /* CoreGraphics.framework */,
+				A356830417F6C081009D6939 /* UIKit.framework */,
+				A356832217F6C081009D6939 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A356830617F6C081009D6939 /* Ski */ = {
+			isa = PBXGroup;
+			children = (
+				A356830F17F6C081009D6939 /* AppDelegate.h */,
+				A356831017F6C081009D6939 /* AppDelegate.m */,
+				A356831217F6C081009D6939 /* Main.storyboard */,
+				A356831517F6C081009D6939 /* FirstViewController.h */,
+				A356831617F6C081009D6939 /* FirstViewController.m */,
+				A356831817F6C081009D6939 /* SecondViewController.h */,
+				A356831917F6C081009D6939 /* SecondViewController.m */,
+				A356831B17F6C081009D6939 /* Images.xcassets */,
+				A356830717F6C081009D6939 /* Supporting Files */,
+				A356833817F6C1F4009D6939 /* ThirdViewController.h */,
+				A356833917F6C1F4009D6939 /* ThirdViewController.m */,
+				A356833D17F6CA1C009D6939 /* TableViewController.h */,
+				A356833E17F6CA1C009D6939 /* TableViewController.m */,
+				A369797917FFF0AA00608231 /* CountryDetailsViewController.h */,
+				A369797A17FFF0AA00608231 /* CountryDetailsViewController.m */,
+				A36979811800116700608231 /* StationDetailsViewController.h */,
+				A36979821800116700608231 /* StationDetailsViewController.m */,
+				A36979861800190000608231 /* MapAnnotation.h */,
+				A36979871800190000608231 /* MapAnnotation.m */,
+			);
+			path = Ski;
+			sourceTree = "<group>";
+		};
+		A356830717F6C081009D6939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A356833B17F6C8B1009D6939 /* Countries.plist */,
+				A369797217FFE61C00608231 /* es.png */,
+				A369797417FFE63B00608231 /* us.png */,
+				A369797017FFE5F600608231 /* de.png */,
+				A369796E17FFE52A00608231 /* fr.png */,
+				A356830817F6C081009D6939 /* Ski-Info.plist */,
+				A356830917F6C081009D6939 /* InfoPlist.strings */,
+				A356830C17F6C081009D6939 /* main.m */,
+				A356830E17F6C081009D6939 /* Ski-Prefix.pch */,
+				A369797C17FFF27100608231 /* SkiStations.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A356832817F6C081009D6939 /* SkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A356832E17F6C082009D6939 /* SkiTests.m */,
+				A356832917F6C082009D6939 /* Supporting Files */,
+			);
+			path = SkiTests;
+			sourceTree = "<group>";
+		};
+		A356832917F6C082009D6939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A356832A17F6C082009D6939 /* SkiTests-Info.plist */,
+				A356832B17F6C082009D6939 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A35682FC17F6C081009D6939 /* Ski */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A356833217F6C082009D6939 /* Build configuration list for PBXNativeTarget "Ski" */;
+			buildPhases = (
+				A35682F917F6C081009D6939 /* Sources */,
+				A35682FA17F6C081009D6939 /* Frameworks */,
+				A35682FB17F6C081009D6939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ski;
+			productName = Ski;
+			productReference = A35682FD17F6C081009D6939 /* Ski.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A356832017F6C081009D6939 /* SkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A356833517F6C082009D6939 /* Build configuration list for PBXNativeTarget "SkiTests" */;
+			buildPhases = (
+				A356831D17F6C081009D6939 /* Sources */,
+				A356831E17F6C081009D6939 /* Frameworks */,
+				A356831F17F6C081009D6939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A356832717F6C081009D6939 /* PBXTargetDependency */,
+			);
+			name = SkiTests;
+			productName = SkiTests;
+			productReference = A356832117F6C081009D6939 /* SkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A35682F517F6C081009D6939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vatsaev Aslan";
+				TargetAttributes = {
+					A356832017F6C081009D6939 = {
+						TestTargetID = A35682FC17F6C081009D6939;
+					};
+				};
+			};
+			buildConfigurationList = A35682F817F6C081009D6939 /* Build configuration list for PBXProject "Ski" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A35682F417F6C081009D6939;
+			productRefGroup = A35682FE17F6C081009D6939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A35682FC17F6C081009D6939 /* Ski */,
+				A356832017F6C081009D6939 /* SkiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A35682FB17F6C081009D6939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A356831C17F6C081009D6939 /* Images.xcassets in Resources */,
+				A369797517FFE63B00608231 /* us.png in Resources */,
+				A369796F17FFE52A00608231 /* fr.png in Resources */,
+				A369797D17FFF27100608231 /* SkiStations.plist in Resources */,
+				A356833C17F6C8B1009D6939 /* Countries.plist in Resources */,
+				A369797317FFE61C00608231 /* es.png in Resources */,
+				A356830B17F6C081009D6939 /* InfoPlist.strings in Resources */,
+				A356831417F6C081009D6939 /* Main.storyboard in Resources */,
+				A369797117FFE5F600608231 /* de.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A356831F17F6C081009D6939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A356832D17F6C082009D6939 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A35682F917F6C081009D6939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36979831800116700608231 /* StationDetailsViewController.m in Sources */,
+				A356831A17F6C081009D6939 /* SecondViewController.m in Sources */,
+				A36979881800190000608231 /* MapAnnotation.m in Sources */,
+				A356833F17F6CA1C009D6939 /* TableViewController.m in Sources */,
+				A356833A17F6C1F4009D6939 /* ThirdViewController.m in Sources */,
+				A356831117F6C081009D6939 /* AppDelegate.m in Sources */,
+				A369797B17FFF0AA00608231 /* CountryDetailsViewController.m in Sources */,
+				A356831717F6C081009D6939 /* FirstViewController.m in Sources */,
+				A356830D17F6C081009D6939 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A356831D17F6C081009D6939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A356832F17F6C082009D6939 /* SkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A356832717F6C081009D6939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35682FC17F6C081009D6939 /* Ski */;
+			targetProxy = A356832617F6C081009D6939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A356830917F6C081009D6939 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A356830A17F6C081009D6939 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A356831217F6C081009D6939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A356831317F6C081009D6939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A356832B17F6C082009D6939 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A356832C17F6C082009D6939 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A356833017F6C082009D6939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A356833117F6C082009D6939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A356833317F6C082009D6939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski/Ski-Prefix.pch";
+				INFOPLIST_FILE = "Ski/Ski-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A356833417F6C082009D6939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski/Ski-Prefix.pch";
+				INFOPLIST_FILE = "Ski/Ski-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A356833617F6C082009D6939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ski.app/Ski";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski/Ski-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkiTests/SkiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A356833717F6C082009D6939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ski.app/Ski";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ski/Ski-Prefix.pch";
+				INFOPLIST_FILE = "SkiTests/SkiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A35682F817F6C081009D6939 /* Build configuration list for PBXProject "Ski" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A356833017F6C082009D6939 /* Debug */,
+				A356833117F6C082009D6939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A356833217F6C082009D6939 /* Build configuration list for PBXNativeTarget "Ski" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A356833317F6C082009D6939 /* Debug */,
+				A356833417F6C082009D6939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A356833517F6C082009D6939 /* Build configuration list for PBXNativeTarget "SkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A356833617F6C082009D6939 /* Debug */,
+				A356833717F6C082009D6939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A35682F517F6C081009D6939 /* Project object */;
+}

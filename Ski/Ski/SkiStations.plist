@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>de</key>
+	<dict>
+		<key>stations</key>
+		<array>
+			<dict>
+				<key>lon</key>
+				<integer>0</integer>
+				<key>lat</key>
+				<integer>0</integer>
+				<key>New item</key>
+				<string></string>
+				<key>name</key>
+				<string>DE Station 1</string>
+				<key>location</key>
+				<string>location 1</string>
+			</dict>
+		</array>
+	</dict>
+	<key>es</key>
+	<dict>
+		<key>stations</key>
+		<array>
+			<dict>
+				<key>lon</key>
+				<integer>0</integer>
+				<key>lat</key>
+				<integer>0</integer>
+				<key>location</key>
+				<string>location 1</string>
+				<key>name</key>
+				<string>ES Station 1</string>
+			</dict>
+		</array>
+	</dict>
+	<key>us</key>
+	<dict>
+		<key>stations</key>
+		<array>
+			<dict>
+				<key>lat</key>
+				<integer>0</integer>
+				<key>lon</key>
+				<integer>0</integer>
+				<key>location</key>
+				<string> location 1</string>
+				<key>name</key>
+				<string>US Station 1</string>
+			</dict>
+		</array>
+	</dict>
+	<key>fr</key>
+	<dict>
+		<key>stations</key>
+		<array>
+			<dict>
+				<key>lon</key>
+				<real>30.86459</real>
+				<key>lat</key>
+				<real>220.83364</real>
+				<key>location</key>
+				<string>Mont Blanc</string>
+				<key>name</key>
+				<string>FR - Station de Mont Blanc</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
